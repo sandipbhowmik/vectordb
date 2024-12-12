@@ -1,5 +1,3 @@
-# vectordb
-
 This repository provides Python scripts to ingest data into and query data from the Qdrant vector database.
 
 # Prerequisites
