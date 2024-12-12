@@ -13,6 +13,7 @@ Qdrant: Set up a Qdrant instance. Refer to the Qdrant documentation for installa
 Clone the repository:
 
 git clone https://github.com/sandipbhowmik/vectordb.git
+
 cd vectordb
 
 Install dependencies:
