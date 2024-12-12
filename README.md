@@ -5,6 +5,7 @@ This repository provides Python scripts to ingest data into and query data from 
 # Prerequisites
 
 Python 3.x: Ensure Python 3.x is installed on your system.
+
 Qdrant: Set up a Qdrant instance. Refer to the Qdrant documentation for installation instructions.
 
 # Installation
