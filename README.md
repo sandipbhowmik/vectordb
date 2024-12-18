@@ -4,7 +4,7 @@ This repository provides Python scripts to ingest data into and query data from 
 
 Python 3.x: Ensure Python 3.x is installed on your system.
 
-Qdrant: Set up a Qdrant instance. Refer to the Qdrant documentation for installation instructions.
+Vector DBs: Set up Qdrant, Redis and ELK instance using docker. Refer to the respective products documentation for installation instructions.
 
 # Installation
 
@@ -16,16 +16,16 @@ cd vectordb
 
 Install dependencies:
 
-pip install -r requirements.txt
+Put all the python modules in requirements.txt and run: pip install -r requirements.txt
 
 # Usage
 Data Ingestion
 
-Use the qdrant-ingest.py script to ingest data into the Qdrant database.
+Use the <qdrant|elk|redis>-ingest.py script to ingest data into the respective vector database instance.
 
 Data Querying
 
-Use the qdrant-query.py script to query data from the Qdrant database.
+Use the <qdrant|elk|redis>-query.py script to query data from the respective vector database instance.
 
 # Contributing
 
