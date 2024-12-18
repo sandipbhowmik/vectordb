@@ -16,7 +16,7 @@ def query_qdrant(question, k=5):
     return results
 
 if __name__ == "__main__":
-    question = "What is the summary of the loaded documents?"
+    question = "How to create a variable?"
     print("\nFetching top 5 responses...\n")
     
     results = query_qdrant(question, k=5)
