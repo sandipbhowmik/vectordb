@@ -1,4 +1,4 @@
-This repository provides Python scripts to ingest data into and query data from the Qdrant vector database.
+This repository provides Python scripts to ingest data into and query data using KNN from Qdrant, ELK and Redis vector database.
 
 # Prerequisites
 
